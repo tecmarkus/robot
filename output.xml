@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220812 12:51:45.297" rpa="false" schemaversion="3">
+<suite id="s1" name="Amazon Teste" source="C:\Curso Udemy\Robotframework\Web testing\amazon_teste.robot">
+<test id="s1-t1" name="Caso de teste 01 - Acesso ao menu &quot;Eletrônicos&quot;" line="8">
+<kw name="Abrir o navegador" library="amazon_resources" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220812 12:51:48.069" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<msg timestamp="20220812 12:51:59.093" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220812 12:51:59.097" level="FAIL">WebDriverException: Message: unknown error: unable to discover open window in chrome
+  (Session info: chrome=104.0.5112.81)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00EA5FD3+2187219]
+	Ordinal0 [0x00E3E6D1+1763025]
+	Ordinal0 [0x00D53E78+802424]
+	Ordinal0 [0x00D3BF35+704309]
+	Ordinal0 [0x00DA1A88+1120904]
+	Ordinal0 [0x00DA144A+1119306]
+	Ordinal0 [0x00D9C9A6+1100198]
+	Ordinal0 [0x00D76F80+946048]
+	Ordinal0 [0x00D77E76+949878]
+	GetHandleVerifier [0x011490C2+2721218]
+	GetHandleVerifier [0x0113AAF0+2662384]
+	GetHandleVerifier [0x00F3137A+526458]
+	GetHandleVerifier [0x00F30416+522518]
+	Ordinal0 [0x00E44EAB+1789611]
+	Ordinal0 [0x00E497A8+1808296]
+	Ordinal0 [0x00E49895+1808533]
+	Ordinal0 [0x00E526C1+1844929]
+	BaseThreadInitThunk [0x75506739+25]
+	RtlGetFullPathName_UEx [0x77748FEF+1215]
+	RtlGetFullPathName_UEx [0x77748FBD+1165]
+</msg>
+<status status="FAIL" starttime="20220812 12:51:48.069" endtime="20220812 12:51:59.401"/>
+</kw>
+<status status="FAIL" starttime="20220812 12:51:48.068" endtime="20220812 12:51:59.402"/>
+</kw>
+<doc>Esse teste verifica o menu Eletrônicos da amazon.com.br
+e verifica a categoria Computadores e Informática</doc>
+<tag>categorias</tag>
+<tag>menus</tag>
+<status status="FAIL" starttime="20220812 12:51:48.067" endtime="20220812 12:51:59.407">Setup failed:
+WebDriverException: Message: unknown error: unable to discover open window in chrome
+  (Session info: chrome=104.0.5112.81)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00EA5FD3+2187219]
+	Ordinal0 [0x00E3E6D1+1763025]
+	Ordinal0 [0x00D53E78+802424]
+	Ordinal0 [0x00D3BF35+704309]
+	Ordinal0 [0x00DA1A88+1120904]
+	Ordinal0 [0x00DA144A+1119306]
+	Ordinal0 [0x00D9C9A6+1100198]
+	Ordinal0 [0x00D76F80+946048]
+	Ordinal0 [0x00D77E76+949878]
+	GetHandleVerifier [0x011490C2+2721218]
+	GetHandleVerifier [0x0113AAF0+2662384]
+	GetHandleVerifier [0x00F3137A+526458]
+	GetHandleVerifier [0x00F30416+522518]
+	Ordinal0 [0x00E44EAB+1789611]
+	Ordinal0 [0x00E497A8+1808296]
+	Ordinal0 [0x00E49895+1808533]
+	Ordinal0 [0x00E526C1+1844929]
+	BaseThreadInitThunk [0x75506739+25]
+	RtlGetFullPathName_UEx [0x77748FEF+1215]
+	RtlGetFullPathName_UEx [0x77748FBD+1165]
+</status>
+</test>
+<doc>Essa suite testa o site da amazon.com.br</doc>
+<status status="FAIL" starttime="20220812 12:51:45.305" endtime="20220812 12:51:59.422"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">categorias</stat>
+<stat pass="0" fail="1" skip="0">menus</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Amazon Teste">Amazon Teste</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
